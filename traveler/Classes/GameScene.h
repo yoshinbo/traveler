@@ -1,5 +1,5 @@
 //
-//  HelloWorldScene.h
+//  GameScene.h
 //  traveler
 //
 //  Created by Yoshikazu Oda on 2014/02/09.
@@ -16,11 +16,11 @@
 /**
  *  The main scene
  */
-@interface HelloWorldScene : CCScene
+@interface GameScene : CCScene
 
 // -----------------------------------------------------------------------
 
-+ (HelloWorldScene *)scene;
++ (GameScene *)scene;
 - (id)init;
 
 // -----------------------------------------------------------------------

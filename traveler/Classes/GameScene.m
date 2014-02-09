@@ -1,5 +1,5 @@
 //
-//  HelloWorldScene.m
+//  GameScene.m
 //  traveler
 //
 //  Created by Yoshikazu Oda on 2014/02/09.
@@ -7,15 +7,14 @@
 //
 // -----------------------------------------------------------------------
 
-#import "HelloWorldScene.h"
+#import "GameScene.h"
 #import "IntroScene.h"
-#import "NewtonScene.h"
 
 // -----------------------------------------------------------------------
-#pragma mark - HelloWorldScene
+#pragma mark - GameScene
 // -----------------------------------------------------------------------
 
-@implementation HelloWorldScene
+@implementation GameScene
 {
     CCSprite *_sprite;
 }
@@ -24,7 +23,7 @@
 #pragma mark - Create & Destroy
 // -----------------------------------------------------------------------
 
-+ (HelloWorldScene *)scene
++ (GameScene *)scene
 {
     return [[self alloc] init];
 }
@@ -118,11 +117,6 @@
     // back to intro scene with transition
     [[CCDirector sharedDirector] replaceScene:[IntroScene scene]
                                withTransition:[CCTransition transitionPushWithDirection:CCTransitionDirectionRight duration:1.0f]];
-}
-
-- (void)onNewtonClicked:(id)sender
-{
-    [[CCDirector sharedDirector] pushScene:[NewtonScene scene] withTransition:[CCTransition transitionPushWithDirection:CCTransitionDirectionLeft duration:1.0f]];
 }
 
 // -----------------------------------------------------------------------

@@ -210,12 +210,8 @@
 		B864E9E318A729A90026B77B /* LICENSE_Chipmunk.txt in Resources */ = {isa = PBXBuildFile; fileRef = B864E9E218A729A90026B77B /* LICENSE_Chipmunk.txt */; };
 		B864E9E718A729A90026B77B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B864E9E618A729A90026B77B /* main.m */; };
 		B864E9EB18A729A90026B77B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B864E9EA18A729A90026B77B /* AppDelegate.m */; };
-		B864E9EE18A729A90026B77B /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B864E9ED18A729A90026B77B /* HelloWorldScene.m */; };
+		B864E9EE18A729A90026B77B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B864E9ED18A729A90026B77B /* GameScene.m */; };
 		B864E9F118A729A90026B77B /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B864E9F018A729A90026B77B /* IntroScene.m */; };
-		B864E9F518A729A90026B77B /* NewtonScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B864E9F418A729A90026B77B /* NewtonScene.m */; };
-		B864E9F818A729A90026B77B /* NewtonSphere.m in Sources */ = {isa = PBXBuildFile; fileRef = B864E9F718A729A90026B77B /* NewtonSphere.m */; };
-		B864E9FB18A729A90026B77B /* LightBulb.m in Sources */ = {isa = PBXBuildFile; fileRef = B864E9FA18A729A90026B77B /* LightBulb.m */; };
-		B864E9FE18A729A90026B77B /* Rope.m in Sources */ = {isa = PBXBuildFile; fileRef = B864E9FD18A729A90026B77B /* Rope.m */; };
 		B864EA0018A729A90026B77B /* fire.plist in Resources */ = {isa = PBXBuildFile; fileRef = B864E9FF18A729A90026B77B /* fire.plist */; };
 		B864EA0218A729A90026B77B /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = B864EA0118A729A90026B77B /* fire.png */; };
 		B864EA0418A729A90026B77B /* newton-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = B864EA0318A729A90026B77B /* newton-ipadhd.plist */; };
@@ -661,19 +657,10 @@
 		B864E9E618A729A90026B77B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		B864E9E918A729A90026B77B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		B864E9EA18A729A90026B77B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		B864E9EC18A729A90026B77B /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		B864E9ED18A729A90026B77B /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
+		B864E9EC18A729A90026B77B /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = Classes/GameScene.h; sourceTree = "<group>"; };
+		B864E9ED18A729A90026B77B /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GameScene.m; path = Classes/GameScene.m; sourceTree = "<group>"; };
 		B864E9EF18A729A90026B77B /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		B864E9F018A729A90026B77B /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
-		B864E9F218A729A90026B77B /* NewtonConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonConstants.h; path = Classes/NewtonConstants.h; sourceTree = "<group>"; };
-		B864E9F318A729A90026B77B /* NewtonScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonScene.h; path = Classes/NewtonScene.h; sourceTree = "<group>"; };
-		B864E9F418A729A90026B77B /* NewtonScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NewtonScene.m; path = Classes/NewtonScene.m; sourceTree = "<group>"; };
-		B864E9F618A729A90026B77B /* NewtonSphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonSphere.h; path = Classes/NewtonSphere.h; sourceTree = "<group>"; };
-		B864E9F718A729A90026B77B /* NewtonSphere.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NewtonSphere.m; path = Classes/NewtonSphere.m; sourceTree = "<group>"; };
-		B864E9F918A729A90026B77B /* LightBulb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LightBulb.h; path = Classes/LightBulb.h; sourceTree = "<group>"; };
-		B864E9FA18A729A90026B77B /* LightBulb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LightBulb.m; path = Classes/LightBulb.m; sourceTree = "<group>"; };
-		B864E9FC18A729A90026B77B /* Rope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Rope.h; path = Classes/Rope.h; sourceTree = "<group>"; };
-		B864E9FD18A729A90026B77B /* Rope.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Rope.m; path = Classes/Rope.m; sourceTree = "<group>"; };
 		B864E9FF18A729A90026B77B /* fire.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fire.plist; path = Resources/fire.plist; sourceTree = "<group>"; };
 		B864EA0118A729A90026B77B /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fire.png; path = Resources/fire.png; sourceTree = "<group>"; };
 		B864EA0318A729A90026B77B /* newton-ipadhd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "newton-ipadhd.plist"; path = "Resources/newton-ipadhd.plist"; sourceTree = "<group>"; };
@@ -1579,21 +1566,20 @@
 			children = (
 				B864E9E918A729A90026B77B /* AppDelegate.h */,
 				B864E9EA18A729A90026B77B /* AppDelegate.m */,
-				B864E9EC18A729A90026B77B /* HelloWorldScene.h */,
-				B864E9ED18A729A90026B77B /* HelloWorldScene.m */,
 				B864E9EF18A729A90026B77B /* IntroScene.h */,
 				B864E9F018A729A90026B77B /* IntroScene.m */,
-				B864E9F218A729A90026B77B /* NewtonConstants.h */,
-				B864E9F318A729A90026B77B /* NewtonScene.h */,
-				B864E9F418A729A90026B77B /* NewtonScene.m */,
-				B864E9F618A729A90026B77B /* NewtonSphere.h */,
-				B864E9F718A729A90026B77B /* NewtonSphere.m */,
-				B864E9F918A729A90026B77B /* LightBulb.h */,
-				B864E9FA18A729A90026B77B /* LightBulb.m */,
-				B864E9FC18A729A90026B77B /* Rope.h */,
-				B864E9FD18A729A90026B77B /* Rope.m */,
+				B864EA1718A731890026B77B /* Scenes */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		B864EA1718A731890026B77B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B864E9EC18A729A90026B77B /* GameScene.h */,
+				B864E9ED18A729A90026B77B /* GameScene.m */,
+			);
+			name = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1772,7 +1758,6 @@
 				B864E8CA18A729A80026B77B /* OALAudioTrack.m in Sources */,
 				B864E80D18A729A70026B77B /* CCProgressNode.m in Sources */,
 				B864E80018A729A70026B77B /* CCPhysicsBody.m in Sources */,
-				B864E9FB18A729A90026B77B /* LightBulb.m in Sources */,
 				B864E88518A729A70026B77B /* CCWindow.m in Sources */,
 				B864E79A18A729A60026B77B /* CCActionProgressTimer.m in Sources */,
 				B864E95018A729A80026B77B /* plane.c in Sources */,
@@ -1782,18 +1767,15 @@
 				B864E8FA18A729A80026B77B /* OALAudioSession.m in Sources */,
 				B864E97118A729A80026B77B /* CCBLocalizationManager.m in Sources */,
 				B864E85D18A729A70026B77B /* CCTiledMapObjectGroup.m in Sources */,
-				B864E9F818A729A90026B77B /* NewtonSphere.m in Sources */,
 				B864E95A18A729A80026B77B /* vec3.c in Sources */,
 				B864E7DD18A729A70026B77B /* CCLayoutBox.m in Sources */,
 				B864E7DA18A729A70026B77B /* CCLayout.m in Sources */,
 				B864E8FD18A729A80026B77B /* OALSuspendHandler.m in Sources */,
 				B864E95C18A729A80026B77B /* vec4.c in Sources */,
 				B864E86E18A729A70026B77B /* CCDirectorIOS.m in Sources */,
-				B864E9F518A729A90026B77B /* NewtonScene.m in Sources */,
 				B864E84518A729A70026B77B /* CCSpriteFrameCache.m in Sources */,
 				B864E90418A729A80026B77B /* mach_timing.c in Sources */,
 				B864E8E818A729A80026B77B /* ALListener.m in Sources */,
-				B864E9FE18A729A90026B77B /* Rope.m in Sources */,
 				B864E7C118A729A70026B77B /* ccFPSImages.m in Sources */,
 				B864E89818A729A80026B77B /* ccUtils.c in Sources */,
 				B864E80918A729A70026B77B /* CCPhysicsShape.m in Sources */,
@@ -1805,7 +1787,7 @@
 				B864E83418A729A70026B77B /* ccShaders.m in Sources */,
 				B864E94818A729A80026B77B /* matrix.c in Sources */,
 				B864E85A18A729A70026B77B /* CCTiledMapLayer.m in Sources */,
-				B864E9EE18A729A90026B77B /* HelloWorldScene.m in Sources */,
+				B864E9EE18A729A90026B77B /* GameScene.m in Sources */,
 				B864E94E18A729A80026B77B /* neon_matrix_impl.c in Sources */,
 				B864E7D318A729A70026B77B /* CCLabelTTF.m in Sources */,
 				B864E88818A729A70026B77B /* NSEvent+CC.m in Sources */,
